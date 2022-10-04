@@ -1,28 +1,20 @@
-.signup-container{
+.login-container{
     /* border:1px solid red; */
     display: flex;
     justify-content: center;
     align-items: center;
     margin-top: 8rem;
     text-align: center; 
-    flex-direction: column;
-    position: relative;
-   
-    
+    flex-direction: row;
     /* so that instagram image is in middle
     as it is inline property */
-    
 
 }
-.signup-card{
+.login-card{
     width: 25rem;
-    height: 27rem;
+    height: 18rem;
     border: 1px solid #ccc;
     padding: 1rem;
-    
-    
-   
-   
 }
 .bottom-card{
 
@@ -30,23 +22,17 @@
     border: 1px solid #ccc;
     padding: 1rem;
     margin-top: 1rem;
-
-  
 }
-.tnc{
-    width: 25rem;
-    padding: 1rem;
-    /* margin-top: 1rem; */
-    color: gray;
-    
+.insta-mob-bg{
+    background-image:url(../../asset/insta-mob-bg.png);
+    width: 454px;
+    height: 618px;
+    /* position: relative;6 */
+}
+.carousel{
+    height: auto;
     position: absolute;
-    top: 75%;
-    left: 50%;
-    transform: translate(-50% , -50% );
-    
+    top: 50px;
+    left: 22px;
 
-    
-     
-    
-    
 }
