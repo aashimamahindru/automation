@@ -1,0 +1,68 @@
+.navbar{
+    background-color: rgb(103,72,209);
+    background-color: linear-gradient(90deg, rgba(103,72,209,1) 47%, rgba(145,116,234,1) 92%);
+   left: 0;
+}
+.navbar ul{
+    overflow: auto;
+}
+.navbar li{
+    float:left;
+    list-style: none;
+    padding: 3px 3px;
+    margin: 3px 8px;
+}
+
+.fa-solid{
+    color: white;
+  
+    font-size: larger;
+    
+   
+}
+.rightshift{
+    margin-left: 80rem;
+}
+.cred ul li{
+    margin-left: 2em;
+}
+.text{
+    color: white;
+    font-size: x-large;
+    justify-content: center;
+    
+}
+
+.sidebar li{
+    list-style: none;
+    padding: 25px;
+    margin-left: 0;
+    transition: 0.4s;
+  
+}
+.sidebar{
+     background-color: rgb(103,72,209);
+   
+     background-color: linear-gradient(90deg, rgba(103,72,209,1) 47%, rgba(145,116,234,1) 92%); ;
+     position: fixed;
+     width:250px;
+     left: 0;
+     margin-top: -11px;
+     padding:5px;
+     padding-left: 0;
+     height: 100%;
+
+    }
+
+    .sidebar ul a{
+        display: block;
+        height: 100%;
+        width: 100%;
+        line-height: 65px;
+        font-size: 20px;
+        color: white;
+        padding-left: 10px;
+        box-sizing: border-box;
+        transition: .4s;
+
+    }
